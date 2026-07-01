@@ -1,14 +1,46 @@
 import { Routes } from '@angular/router';
+import { Home } from './pages/home/home';
 import { CharacterPages } from './pages/character-pages/character-pages';
 import { Updates } from './pages/updates/updates';
 import { About } from './pages/about/about';
 import { Books } from './pages/books/books';
 import { WorldMap } from './pages/world-map/world-map';
+import { Luke } from './pages/luke/luke';
+import { Brock } from './pages/brock/brock';
+import { Carl } from './pages/carl/carl';
+import { Spark } from './pages/spark/spark';
+import { Skarlet } from './pages/skarlet/skarlet';
+import { Carol } from './pages/carol/carol';
+import { Digit } from './pages/digit/digit';
+import { Oreo } from './pages/oreo/oreo';
+import { Henry } from './pages/henry/henry';
+import { Rain } from './pages/rain/rain';
+import { Rio } from './pages/rio/rio';
+import { Robert } from './pages/robert/robert';
+import { Tristan } from './pages/tristan/tristan';
+import { Celestia } from './pages/celestia/celestia';
+import { Flair } from './pages/flair/flair';
 
 export const routes: Routes = [
+  { path: '', component: Home },
   { path: 'character', component: CharacterPages },
   { path: 'books', component: Books },
   { path: 'updates', component: Updates },
   { path: 'world', component: WorldMap },
   { path: 'about-the-author', component: About },
+  { path: 'characters/luke', component: Luke },
+  { path: 'characters/brock', component: Brock },
+  { path: 'characters/carl', component: Carl },
+  { path: 'characters/spark', component: Spark },
+  { path: 'characters/skarlet', component: Skarlet },
+  { path: 'characters/carol', component: Carol },
+  { path: 'characters/digit', component: Digit },
+  { path: 'characters/oreo', component: Oreo },
+  { path: 'characters/henry', component: Henry },
+  { path: 'characters/rain', component: Rain },
+  { path: 'characters/rio', component: Rio },
+  { path: 'characters/robert', component: Robert },
+  { path: 'characters/tristan', component: Tristan },
+  { path: 'characters/celestia', component: Celestia },
+  { path: 'characters/flair', component: Flair },
 ];
