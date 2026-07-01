@@ -10,6 +10,7 @@ import { Brock } from './pages/brock/brock';
 import { Carl } from './pages/carl/carl';
 import { Spark } from './pages/spark/spark';
 import { Skarlet } from './pages/skarlet/skarlet';
+import { Sylvia } from './pages/sylvia/sylvia';
 import { Carol } from './pages/carol/carol';
 import { Digit } from './pages/digit/digit';
 import { Oreo } from './pages/oreo/oreo';
@@ -33,6 +34,7 @@ export const routes: Routes = [
   { path: 'characters/carl', component: Carl },
   { path: 'characters/spark', component: Spark },
   { path: 'characters/skarlet', component: Skarlet },
+  { path: 'characters/sylvia', component: Sylvia },
   { path: 'characters/carol', component: Carol },
   { path: 'characters/digit', component: Digit },
   { path: 'characters/oreo', component: Oreo },
