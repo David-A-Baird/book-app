@@ -21,6 +21,7 @@ import { Robert } from './pages/robert/robert';
 import { Tristan } from './pages/tristan/tristan';
 import { Celestia } from './pages/celestia/celestia';
 import { Flair } from './pages/flair/flair';
+import { Elanor } from './pages/elanor/elanor';
 
 export const routes: Routes = [
   { path: '', component: Home },
@@ -42,6 +43,7 @@ export const routes: Routes = [
   { path: 'characters/rain', component: Rain },
   { path: 'characters/rio', component: Rio },
   { path: 'characters/robert', component: Robert },
+  { path: 'characters/elanor', component: Elanor },
   { path: 'characters/tristan', component: Tristan },
   { path: 'characters/celestia', component: Celestia },
   { path: 'characters/flair', component: Flair },
